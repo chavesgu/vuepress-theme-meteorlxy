@@ -1,9 +1,14 @@
 const path = require('path')
 
 module.exports = {
-  title: 'vuepress-theme-meteorlxy',
+  title: 'Chaves 顾',
 
-  description: 'Vuepress theme of meteorlxy\'s blog',
+  description: "chavesgu's blog",
+
+  head: [
+    ['link', { rel: 'icon', href: '//cdn.chavesgu.com/title.ico' }],
+  ],
+  port: 8888,
 
   locales: {
     '/': {
@@ -15,7 +20,11 @@ module.exports = {
 
   plugins: [
     ['@vuepress/google-analytics', {
-      ga: 'UA-132770851-2',
+      ga: 'UA-135380140-1',
+    }],
+    ['@vuepress/pwa', {
+      serviceWorker: true,
+      updatePopup: true,
     }],
   ],
 
@@ -46,74 +55,25 @@ module.exports = {
     lang: 'en-US',
 
     personalInfo: {
-      nickname: 'meteorlxy',
-      description: 'Happy Coding<br/>Happy Life',
-      email: 'meteor.lxy@foxmail.com',
-      location: 'Shenzhen, China',
-      organization: 'Tencent',
+      nickname: 'chavesgu',
+      description: '😊',
+      email: 'mail@chavesgu.com',
+      location: 'ShangHai, China',
 
-      avatar: 'https://www.meteorlxy.cn/assets/img/avatar.jpg',
+      avatar: '//cdn.chavesgu.com/avatar.jpg-avatar',
 
       sns: {
         github: {
-          account: 'meteorlxy',
-          link: 'https://github.com/meteorlxy',
-        },
-        facebook: {
-          account: 'meteorlxy.cn',
-          link: 'https://www.facebook.com/meteorlxy.cn',
-        },
-        linkedin: {
-          account: 'meteorlxy',
-          link: 'http://www.linkedin.com/in/meteorlxy',
-        },
-        twitter: {
-          account: 'meteorlxy_cn',
-          link: 'https://twitter.com/meteorlxy_cn',
-        },
-        weibo: {
-          account: '@焦炭君_Meteor',
-          link: 'https://weibo.com/u/2039655434',
-        },
-        zhihu: {
-          account: 'meteorlxy.cn',
-          link: 'https://www.zhihu.com/people/meteorlxy.cn',
-        },
-        douban: {
-          account: '159342708',
-          link: 'https://www.douban.com/people/159342708',
-        },
-        reddit: {
-          account: 'meteorlxy',
-          link: 'https://www.reddit.com/user/meteorlxy',
-        },
-        medium: {
-          account: 'meteorlxy.cn',
-          link: 'https://medium.com/@meteorlxy.cn',
-        },
-        instagram: {
-          account: 'meteorlxy.cn',
-          link: 'https://www.instagram.com/meteorlxy.cn',
-        },
-        gitlab: {
-          account: 'meteorlxy',
-          link: 'https://gitlab.com/meteorlxy',
-        },
-        bitbucket: {
-          account: 'meteorlxy',
-          link: 'https://bitbucket.org/meteorlxy',
-        },
-        docker: {
-          account: 'meteorlxy',
-          link: 'https://hub.docker.com/u/meteorlxy',
-        },
-        csdn: {
-          account: '',
-          link: 'https://www.csdn.net/',
+          account: 'chavesgu',
+          link: 'https://github.com/chavesgu',
         },
         juejin: {
-          account: 'meteorlxy',
-          link: 'https://juejin.im/user/5c6fa9dde51d453fcb7baf09',
+          account: 'chavesgu',
+          link: 'https://juejin.im/user/5a98dece6fb9a028bd4bc12b',
+        },
+        linkedin: {
+          account: 'chavesgu',
+          link: 'http://www.linkedin.com/in/chavesgu',
         },
       },
     },
@@ -128,8 +88,8 @@ module.exports = {
 
     footer: {
       poweredBy: true,
-      poweredByTheme: true,
-      custom: 'Copyright 2018-present <a href="https://github.com/meteorlxy" target="_blank">meteorlxy</a> | MIT License',
+      poweredByTheme: false,
+      custom: '<a href="http://beian.miit.gov.cn/" target="_blank">沪ICP备17017527号-1</a>',
     },
 
     infoCard: {
@@ -144,13 +104,12 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/', exact: true },
       { text: 'Posts', link: '/posts/', exact: false },
-      { text: 'Custom Pages', link: '/custom-pages/', exact: false },
-      { text: 'Changelog', link: 'https://github.com/meteorlxy/vuepress-theme-meteorlxy/blob/master/CHANGELOG.md' },
-      { text: 'Github', link: 'https://github.com/meteorlxy/vuepress-theme-meteorlxy' },
+      { text: 'About', link: '/about/', exact: false },
+      { text: 'Github', link: 'https://github.com/chavesgu' },
     ],
 
     // Enable smooth scrolling or not
-    smoothScroll: false,
+    smoothScroll: true,
 
     // Configs for vuepress-plugin-zooming
     zooming: {
@@ -158,10 +117,11 @@ module.exports = {
     },
 
     comments: {
-      owner: 'meteorlxy',
-      repo: 'vuepress-theme-meteorlxy',
-      clientId: 'cbda894952ba70c00666',
-      clientSecret: '1ade785ca693bf3092be5e5338720d5ee43672b7',
+      owner: 'chavesgu',
+      repo: 'comments',
+      clientId: '9c96f9376fc9b51a3447',
+      clientSecret: '7174be2255902f43a34d13c5a3d04c49c0acb2b7',
+      labels: ['comments'],
       autoCreateIssue: false,
     },
 

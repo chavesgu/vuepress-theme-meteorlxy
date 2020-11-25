@@ -1,4 +1,4 @@
 node_modules/
 .temp/
-docs-dist/
+dist/
 *.log

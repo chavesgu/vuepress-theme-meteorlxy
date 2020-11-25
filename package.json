@@ -22,32 +22,19 @@
     "lib/"
   ],
   "scripts": {
-    "build": "vuepress build docs --dest docs-dist",
+    "build": "vuepress build docs --dest dist",
     "dev": "vuepress dev docs --no-cache --temp .temp",
     "lint": "eslint --ext .js,.vue lib docs",
     "semantic-release": "semantic-release",
     "serve": "vuepress serve docs --dest docs-dist",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "lint-staged": {
     "*.{js,vue}": [
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ],
     "package.json": [
-      "sort-package-json",
-      "git add"
+      "sort-package-json"
     ]
   },
   "eslintConfig": {
@@ -93,6 +80,7 @@
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
+    "@vuepress/plugin-pwa": "^1.7.1",
     "conventional-changelog-cli": "^2.0.21",
     "eslint": "^6.3.0",
     "eslint-config-standard": "^14.1.0",
