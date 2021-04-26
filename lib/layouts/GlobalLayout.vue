@@ -25,3 +25,11 @@ export default {
 </script>
 
 <style lang="stylus" src="@theme/styles/index.styl" />
+<style>
+*{
+  user-select: none;
+}
+body{
+  -webkit-overflow-scrolling: touch;
+}
+</style>
