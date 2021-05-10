@@ -91,9 +91,9 @@ import IScroll from 'iscroll/build/iscroll-infinite';
 ![效果1](//cdn.chavesgu.com/blog/iscroll-1.gif)
 
 ### iScroll刷新
-```!
+:::danger
 注意点，由于滚动内容可能是异步获取并加载dom，如果不刷新iscroll，那么滚动功能可能会受到影响，所以当异步内容加载后，需要调用刷新方法，刷新iscroll，刷新方式如下
-```
+:::
 
 ```html
 <template>
@@ -142,9 +142,9 @@ this.scroll.on('scroll', e => {
 
 ![效果2](//cdn.chavesgu.com/blog/iscroll-2.gif)
 
-```!
+:::danger
 注意取值的正负,监听取得的值是transform的值,确认好正负值所对应的方向。
-```
+:::
 ### 滚动到指定元素位置
 这里需要使用iscroll的贴合功能
 ```js

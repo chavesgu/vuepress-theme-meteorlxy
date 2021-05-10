@@ -1,5 +1,5 @@
 <template>
-  <div id="vuepress-theme-meteorlxy">
+  <div id="vuepress">
     <TheHeader />
 
     <TheMain />

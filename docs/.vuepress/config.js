@@ -60,7 +60,7 @@ module.exports = {
       email: 'mail@chavesgu.com',
       location: 'ShangHai, China',
 
-      avatar: '//cdn.chavesgu.com/avatar.jpg-avatar',
+      avatar: '//cdn.chavesgu.com/avatar.jpg',
 
       sns: {
         github: {
@@ -87,7 +87,7 @@ module.exports = {
     },
 
     footer: {
-      poweredBy: true,
+      poweredBy: false,
       poweredByTheme: false,
       custom: '<a href="http://beian.miit.gov.cn/" target="_blank">沪ICP备17017527号-1</a>',
     },
@@ -104,7 +104,7 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/', exact: true },
       { text: 'Posts', link: '/posts/', exact: false },
-      { text: 'About', link: '/about/', exact: false },
+      { text: 'About', link: '/about/', exact: true },
       { text: 'Github', link: 'https://github.com/chavesgu' },
     ],
 
@@ -126,7 +126,7 @@ module.exports = {
     },
 
     pagination: {
-      perPage: 5,
+      perPage: 6,
     },
   },
 }

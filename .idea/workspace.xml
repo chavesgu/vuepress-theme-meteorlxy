@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35b6247a-b535-47a4-91b5-db724773cf0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/_posts/learn.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_posts/flutter-images-picker.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_posts/flutter-images-picker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_posts/iscroll.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_posts/iscroll.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/enhanceApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/enhanceApp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/layouts/GlobalLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lib/layouts/GlobalLayout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/plugins/blog/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/plugins/blog/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +40,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v12.18.3/bin/node" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="settings.webpack" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -44,7 +51,7 @@
       <recent name="$PROJECT_DIR$/docs" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -69,8 +76,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -92,11 +99,17 @@
       <workItem from="1612164889464" duration="2185000" />
       <workItem from="1616570375129" duration="1106000" />
       <workItem from="1617873741449" duration="171000" />
-      <workItem from="1619421546981" duration="263000" />
+      <workItem from="1619421546981" duration="596000" />
+      <workItem from="1619506974950" duration="110000" />
+      <workItem from="1620617650909" duration="9679000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

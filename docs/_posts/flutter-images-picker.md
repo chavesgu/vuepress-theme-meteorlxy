@@ -14,9 +14,7 @@ meta:
 vssue-title: flutter-images-picker
 ---
 
-在app应用中，用到媒体文件的场景还是很多的，在使用率很高的社交软件微信中，相信大家在聊天窗口中经常会发送手机相册中的图片和视频，大家对微信的图片视频选择工具也形成视觉习惯，那么下面我会分享如何在自己的flutter应用中实现它。
-
-<!-- more -->
+在app应用中，用到媒体文件的场景还是很多的，在使用率很高的社交软件微信中，相信大家在聊天窗口中经常会发送手机相册中的图片和视频，<!-- more -->大家对微信的图片视频选择工具也形成视觉习惯，那么下面我会分享如何在自己的flutter应用中实现它。
 
 **flutter插件地址: [images_picker](https://pub.flutter-io.cn/packages/images_picker)**
 
@@ -48,9 +46,9 @@ dependencies:
 <key>NSPhotoLibraryUsageDescription</key>
 <string>告诉用户你使用相册的目的</string>
 ```
-```!
+:::danger
 不配置权限会导致无法成功编译
-```
+:::
 ### 使用方法
 1.在需要使用的页面import
 ```dart
