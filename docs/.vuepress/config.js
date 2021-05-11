@@ -8,7 +8,9 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '//cdn.chavesgu.com/title.ico' }],
     ['script', { id: 'ie' }, `
-        if (!+[1,]) window.location.href = "https://www.chavesgu.com/browser.html"
+        if(window.attachEvent || document.all || navigator.appName==="Microsoft Internet Explorer" || !+[1,] || !!window.ActiveXObject || "ActiveXObject" in window) {
+          window.location.href = "https://www.chavesgu.com/browser.html"
+        }
     `],
   ],
   port: 8888,

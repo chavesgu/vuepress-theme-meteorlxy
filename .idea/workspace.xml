@@ -4,8 +4,6 @@
     <list default="true" id="35b6247a-b535-47a4-91b5-db724773cf0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/enhanceApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/enhanceApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,7 @@
       <workItem from="1619506974950" duration="110000" />
       <workItem from="1620617650909" duration="11014000" />
       <workItem from="1620640970856" duration="116000" />
-      <workItem from="1620698994525" duration="372000" />
+      <workItem from="1620698994525" duration="1459000" />
     </task>
     <servers />
   </component>
