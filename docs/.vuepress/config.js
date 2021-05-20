@@ -119,6 +119,8 @@ module.exports = {
     // Configs for vuepress-plugin-zooming
     zooming: {
       // @see https://vuepress.github.io/en/plugins/zooming
+      bgColor: 'rgb(0, 0, 0)',
+      bgOpacity: 0.5,
     },
 
     comments: {
